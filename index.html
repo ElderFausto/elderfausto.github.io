@@ -8,30 +8,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+    
     
     <body> 
-        <header>
+        <header class="header">
             <img src="assets/img/Avatarelder22.png" alt="">
             
             <nav>                                                           <!--nav display block-->
-                    <a id="a1" href=" " lang="en">Skills</a>                <!--a display inline-->
-                    <a id="a2" href=" ">Projetos</a>
-                    <a id="a3" href=" ">Sobre</a>
-                    <a id="a4" href=" ">Contatos</a>
-                    <a id="button" href=" " lang="en">Download CV</a>
+                    <a class="action" href=" " lang="en">Skills</a>                <!--a display inline-->
+                    <a class="action" href=" ">Projetos</a>
+                    <a class="action" href=" ">Sobre</a>
+                    <a class="action" href=" ">Contatos</a>
+                    <a class="button" href=" " lang="en">Download CV</a>
             </nav>
-            
         </header>
         
-        
-        <div id="box">
-            <h1>Élder Fausto</h1>
-            <h2>Web Development Student</h2>
-        </div>
+        <section class="banner">
+            <div class="wrapper">  
+                <div class="box">
+                        <h1 class="title">Élder Fausto</h1>
+                        <h2 class="subtitle">Web Development Student</h2>
+                </div>
+
+                <div class="navegation"> 
+                    <a class="button" href="" lang="en">Download CV</a>
+                    <a class="button" href="">Contatos</a>
+                </div>
+            </div>
+        </section>    
         
     </body>
 </html>

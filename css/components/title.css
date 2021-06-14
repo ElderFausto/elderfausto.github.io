@@ -1,9 +1,9 @@
 
-            h1 {
-                color: #F25A70;
+            .title {
+                color: #ff00a0;
                 font-family: "Press start 2P";
                 font-size: 30px;
-                text-shadow: 3px 3px blueviolet;
+                text-shadow: 3px 3px #7a04eb;
                 text-align: center;
                 margin-bottom: 28px;
             }
