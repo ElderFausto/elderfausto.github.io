@@ -1,0 +1,17 @@
+
+            .main-title {
+                color: #ff00a0;
+                font-family: "Press start 2P";
+                font-size: 30px;
+                text-shadow: none;
+                text-align: center;
+            }
+
+            .main-title.-second {
+                color: rgb(0, 255, 255);;
+                font-size: 40px;
+                text-shadow: 2px 2px blueviolet;
+                margin-top: 0px;
+            }
+
+   
