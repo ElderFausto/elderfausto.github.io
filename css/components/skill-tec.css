@@ -1,13 +1,14 @@
 .skill-tec .progress-bar{
-    background-color: violet;
+    background-color: #ff00a0;
 }
 
 .skill-tec {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(0, 255, 255);
+    text-shadow: 2px 2px blueviolet;
     font-family: "Press Start 2P", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .skill-tec .icon {
