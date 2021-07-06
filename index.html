@@ -23,8 +23,10 @@
     <link rel="stylesheet" href="css/components/projects.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
     <link rel="stylesheet" href="css/components/main-description.css">
-    <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
 
     
     
@@ -170,6 +172,22 @@
                 Estudante de desenvolvimento web, pernambucano natural de Recife, profissional de educação física formado pela UFPE.
             </p>
         </section>
+
+        <form class="main-form">
+            <legend class="main-title -second">Contatos</legend>
+
+            <label class="main-label" for="Name">Nome</label>
+            <input class="main-input" id="Name" type="text" required>
+
+            <label class="main-label" for="Email">Email</label>
+            <input class="main-input" id="Email" type="text" required>
+
+            <label class="main-label" for="Message">Mensagem</label>
+            <textarea class="main-input -textarea" id="Message"></textarea required>
+
+            <button class="main-button -full" type="submit">Enviar</button>
+
+        </form>
 
         <footer class="main-footer">
             <a class="action" href="https://twitch.tv/jimpo2" target="_blank">

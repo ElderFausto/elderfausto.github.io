@@ -15,8 +15,17 @@
     left: 466px;
     top: 446px;
     text-align: center;
+    cursor: pointer;
 }
 
 .main-button:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
+}
+
+.main-button.-full {
+    width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
